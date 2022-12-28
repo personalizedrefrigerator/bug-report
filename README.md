@@ -1,8 +1,8 @@
 
 # `insertText` plugin API bug
-## About the issue
+## Issue demonstrated
 When calling `await joplin.commands.execute('insertText', '![](:/some-svg-image-resource-id)');` and the rich text editor is open, content similar to
-```md
+```html
 <img src="data:;base64,
 		<svg width=" 1700"="" height="1536" xmlns="http://www.w3.org/2000/svg">  " />
 ```
