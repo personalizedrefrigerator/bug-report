@@ -6,7 +6,7 @@ When calling `await joplin.commands.execute('insertText', '![](:/some-svg-image-
 <img src="data:;base64,
 		<svg width=" 1700"="" height="1536" xmlns="http://www.w3.org/2000/svg">  " />
 ```
-is added to the note. The `insertText` command inserts the markdown as expected when the markdown editor is open.
+is added to the note, instead of the expected markdown for the image. The `insertText` command inserts the markdown as expected when the markdown editor is open.
 
 ## Using this test plugin
 1. After cloning this repository, switch to the `joplin-image-inserttext-plugin-bug` branch and run `npm install`.
