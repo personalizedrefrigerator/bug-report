@@ -1,3 +1,23 @@
+
+# `insertText` plugin API bug
+## About the issue
+When calling `await joplin.commands.execute('insertText', '![](:/some-svg-image-resource-id)');` and the rich text editor is open, content similar to
+```md
+<img src="data:;base64,
+		<svg width=" 1700"="" height="1536" xmlns="http://www.w3.org/2000/svg">  " />
+```
+is added to the note. The `insertText` command inserts the markdown as expected when the markdown editor is open.
+
+## Using this test plugin
+1. After cloning this repository, switch to the `joplin-image-inserttext-plugin-bug` branch and run `npm install`.
+2. Add the directory containing this repository to the list of development plugins (under "settings > plugins > advanced").
+3. Restart Joplin
+4. Open the command palette (ctrl+shift+P) search for `insertText with an SVG image resource` and run it in both the rich text and markdown editors.
+5. Observe the difference in behavior.
+
+
+---
+
 # Joplin Plugin
 
 This is a template to create a new Joplin plugin.
