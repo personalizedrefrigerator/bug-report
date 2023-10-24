@@ -1,11 +1,15 @@
 {
-  "name": "typedoc-bug-report",
+  "name": "@typedoc-bug-report/root",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "doc": "typedoc --options typedoc.json",
-    "watch-docs": "typedoc --watch --options typedoc.json"
+    "watch-docs": "typedoc --watch --options typedoc.json",
+    "tsc": "(cd packages/lib-project && tsc); (cd packages/main-project && tsc)"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "typedoc": "0.25.2"
   }

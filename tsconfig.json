@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"module": "ES6",
+		"moduleResolution": "Node",
+		"declaration": true,
+
+		"baseUrl": "packages/",
+		"paths": {
+			"lib-project": ["lib-project/src"],
+			"main-project": ["main-project/src"]
+		}
+	}
+}

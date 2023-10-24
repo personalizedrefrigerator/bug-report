@@ -1,0 +1,11 @@
+{
+	"name": "@typedoc-bug-report/lib-project",
+	"main": "dist/lib.js",
+	"types": "dist/lib.d.ts",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"tsc": "tsc"
+	}
+  }
+  

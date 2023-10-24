@@ -1,0 +1,11 @@
+{
+	"name": "@typedoc-bug-report/main-project",
+	"private": true,
+	"main": "dist/main.js",
+	"types": "dist/main.d.ts",
+	"version": "0.0.0",
+	"dependencies": {
+		"@typedoc-bug-report/lib-project": "^0.0.0"
+	}
+  }
+  

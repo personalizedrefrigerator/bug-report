@@ -1,9 +1,10 @@
 {
 	"entryPoints": [
-		"./project/lib.ts"
+		"./packages/lib-project",
+		"./packages/main-project"
 	],
-	"name": "test",
-	"out": "./docs/",
-
-	"includes": "typedoc-includes/",
+	"entryPointStrategy": "packages",
+	"name": "typedoc-bug-report",
+	"out": "docs/",
+	"readme": "README.md",
 }
