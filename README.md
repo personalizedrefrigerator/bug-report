@@ -1,3 +1,6 @@
-This repository is intended to be a collection of minimal examples demonstrating issues.
 
-Different branches demonstrate different issues. Please switch to one of this repository's branches (e.g. `joplin-image-inserttext-plugin-bug`).
+This branch demonstrates a TypeDoc bug. The `{@link foo}` syntax doesn't work in included files:
+
+[[include:included-from-readme.md]]
+
+They do in the README and documentation comments: {@link foo}

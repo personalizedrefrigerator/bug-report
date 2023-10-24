@@ -1,0 +1,12 @@
+{
+  "name": "typedoc-bug-report",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "doc": "typedoc --options typedoc.json",
+    "watch-docs": "typedoc --watch --options typedoc.json"
+  },
+  "devDependencies": {
+    "typedoc": "0.25.2"
+  }
+}

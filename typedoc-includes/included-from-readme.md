@@ -1,0 +1,2 @@
+
+Example link: {@link foo}

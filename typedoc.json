@@ -1,0 +1,9 @@
+{
+	"entryPoints": [
+		"./project/lib.ts"
+	],
+	"name": "test",
+	"out": "./docs/",
+
+	"includes": "typedoc-includes/",
+}
