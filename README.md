@@ -1,3 +1,5 @@
-This repository is intended to be a collection of minimal examples demonstrating issues.
+# Joplin Plugin
 
-Different branches demonstrate different issues. Please switch to one of this repository's branches (e.g. `joplin-image-inserttext-plugin-bug`).
+This is your new Joplin plugin. It is suggested that you use this README file to document your plugin.
+
+For information on how to build or publish the plugin, please see [GENERATOR_DOC.md](./GENERATOR_DOC.md)
