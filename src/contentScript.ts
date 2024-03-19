@@ -5,6 +5,15 @@ export default (context: ContentScriptContext): MarkdownEditorContentScriptModul
 	return {
 		plugin: editorControl => {
 			if (editorControl.cm6) {
+				/// <debugging>
+				// Facilitate debugging: Allows accessing the editor through debug__editor
+				// in Joplin's development tools.
+				// Try running
+				//     debug__editor.execCommand('scroll-to-line', 10);
+				(window as any).debug__editor = editorControl;
+				/// </debugging>
+
+
 				// Running in CM6
 				editorControl.registerCommand('scroll-to-line', (lineNumber: number) => {
 					const editor: EditorView = editorControl.editor;

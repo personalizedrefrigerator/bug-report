@@ -1,5 +1,7 @@
-# Joplin Plugin
+# Scroll-to-line plugin
 
-This is your new Joplin plugin. It is suggested that you use this README file to document your plugin.
+This plugin shows how to scroll to a particular line in the CodeMirror editor.
 
-For information on how to build or publish the plugin, please see [GENERATOR_DOC.md](./GENERATOR_DOC.md)
+To use:
+1. Open go-to-anything (<kbd>cmd</kbd>-<kbd>p</kbd> or <kbd>ctrl</kbd>-<kbd>p</kbd>).
+2. Type `:scrollToLine`
