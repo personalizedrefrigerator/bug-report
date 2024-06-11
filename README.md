@@ -1,6 +1,4 @@
 
-This branch demonstrates a TypeDoc bug. The `{@link foo}` syntax doesn't work in included files:
+This branch demonstrates a TypeDoc bug. Since roughly 0.25.9, including large scripts with a `<script>` tag on `head.end` causes icons to not display in Firefox.
 
-[[include:included-from-readme.md]]
-
-They do in the README and documentation comments: {@link foo}
+To test, run `npm i && npm run build && npm run doc`.

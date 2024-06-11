@@ -1,9 +1,10 @@
 {
 	"entryPoints": [
-		"./project/lib.ts"
+		"./project/lib.ts",
+		"./theme/index.ts"
 	],
+	"plugin": [ "./dist/theme/index.js" ],
 	"name": "test",
 	"out": "./docs/",
-
-	"includes": "typedoc-includes/",
+	"theme": "my-theme",
 }

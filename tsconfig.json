@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"target": "ES2021",
+		"module": "CommonJS",
+
+		"forceConsistentCasingInFileNames": true,
+		"listEmittedFiles": false,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitOverride": true,
+		"noUnusedLocals": true,
+
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"esModuleInterop": true,
+		"moduleResolution": "Node",
+		"declaration": false,
+
+		// See https://typedoc.org/api/modules/JSX.html
+		"jsx": "react",
+		"jsxFactory": "JSX.createElement",
+		"jsxFragmentFactory": "JSX.Fragment",
+		"outDir": "./dist/",
+	},
+	"exclude": [
+		"**/node_modules"
+	]
+}
