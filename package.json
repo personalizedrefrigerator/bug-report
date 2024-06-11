@@ -9,7 +9,6 @@
   },
   "devDependencies": {
     "typescript": "5.4.5",
-    "typedoc": "0.25.13",
-    "@personalizedrefrigerator/example-theme": "file:./theme/"
+    "typedoc": "0.25.13"
   }
 }
