@@ -1,10 +1,7 @@
 {
 	"entryPoints": [
-		"./project/lib.ts",
-		"./theme/index.ts"
+		"./project/lib.ts"
 	],
-	"plugin": [ "./dist/theme/index.js" ],
 	"name": "test",
-	"out": "./docs/",
-	"theme": "my-theme",
+	"out": "./docs/"
 }
